@@ -45,5 +45,9 @@ namespace Distribuidora
             NuevoCliente form = new NuevoCliente();
             form.Show();
         }
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
